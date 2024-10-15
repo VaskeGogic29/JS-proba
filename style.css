@@ -1,0 +1,49 @@
+button{
+    cursor: pointer;
+}
+
+#brojac{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+
+}
+
+#kontis{
+    display: flex;
+    justify-content: center;
+}
+
+.btns{
+   padding: 10px 15px;
+   background-color: hsl(240, 52%, 37%);
+   transition: background-color 0.5s;
+   margin: 10px;
+   border-radius: 5px;
+}
+
+.btns:hover{
+    background-color:  hsl(240, 51%, 60%);
+}
+
+
+#kockica{
+    padding: 10px 15px;
+    font-size: 2em;
+   background-color: hsl(240, 52%, 37%);
+   transition: background-color 0.5s;
+   margin: 10px;
+   border-radius: 5px;
+}
+
+#kockica:hover{
+    background-color:  hsl(240, 51%, 60%);
+}
+
+#kockicaprikaz{
+    font-size: 5em;
+}
+
+#kocka{
+    text-align: center;
+}
